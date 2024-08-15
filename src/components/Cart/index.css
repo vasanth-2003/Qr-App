@@ -1,0 +1,90 @@
+.cart-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cart-img {
+  width: 150px;
+}
+
+.bg {
+  height: 100vh;
+}
+
+/*.bill_cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #d2dbe7;
+  list-style-type: none;
+  padding: 5px;
+}*/
+
+.bill_data {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 35vh;
+  padding: 10px;
+  margin-left: -8vh;
+}
+
+.cafename {
+  font-size: 25px;
+  font-family: 'Roboto';
+  color: #000;
+}
+.style {
+  font-size: 20px;
+  font-family: 'Roboto';
+  margin: -1px;
+}
+
+.order {
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #475569;
+  margin: -1px;
+}
+
+.dot_line {
+  background-color: #000;
+  height: 0.5vh;
+  text-decoration: dotted;
+  width: 35vh;
+}
+
+.bill_bg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #616e7c;
+  padding: 10px;
+}
+
+.bill_cont {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.line {
+  background-color: #000;
+  width: 35vh;
+  margin-top: -1vh;
+}
+
+.total_cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 34vh;
+}
